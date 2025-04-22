@@ -5,8 +5,8 @@ public abstract class Racun extends Blagajnik {
 
     int iznosRacuna;
 
-    public Racun(String ime, String prezime, int oib, int brojBlagajne, int iznosRačuna) {
-        super(ime, prezime, oib, brojBlagajne);
+    public Racun(String imeKupca, String prezimeKupca, int oib, int brojBlagajne, int iznosRačuna) {
+        super(imeKupca, prezimeKupca, oib, brojBlagajne);
     }
 
     public int getIznosRacuna() {

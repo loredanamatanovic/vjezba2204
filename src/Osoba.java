@@ -7,11 +7,10 @@ public class Osoba {
     public int oib;
 
 
-    public Osoba(String ime, String prezime, String oib) {
+    public Osoba(String ime, String prezime, int oib) {
         this.ime = ime;
         this.prezime = prezime;
         this.oib = oib;
-
     }
 
     public String getIme() {

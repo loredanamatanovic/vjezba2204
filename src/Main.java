@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Osoba osoba = new Osoba("Marko", "Marković", 00258845624);
-        Blagajnik blagajnik = new Blagajnik("Jura", "Stefanov", 01478569824, 1);
-        Kupac kupac  = new Kupac(, , , )
+        Osoba osoba = new Osoba("Marko", "Marković", 0025);
+        Blagajnik blagajnik = new Blagajnik("Jura", "Stefanov", 0147, 1);
+        Kupac kupac  = new Kupac("Matko", "Matković", 2145, 80);
+        new Racun(, , , )
     }
 }

@@ -2,7 +2,7 @@ public class Kupac extends Osoba   {
 
     public double saldoNaRacunu;
 
-    public Kupac(String ime, String prezime, String oib, double saldoNaRacunu) {
+    public Kupac(String ime, String prezime, int oib, double saldoNaRacunu) {
         super(ime, prezime, oib);
     }
 
