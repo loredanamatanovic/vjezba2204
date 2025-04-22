@@ -1,8 +1,11 @@
-public class Blagajnik extends Osoba {
+public class Blagajnik extends Osoba  {
+
+
+
 
     public int brojBlagajne = (int) (Math.random() * 7);
 
-    public Blagajnik(String ime, String prezime, int oib, int brojBlagajne) {
+    public Blagajnik(String ime, String prezime, String oib, int brojBlagajne) {
         super(ime, prezime, oib);
     }
 
@@ -12,6 +15,7 @@ public class Blagajnik extends Osoba {
      public void setBrojBlagajne() {
         this.brojBlagajne = brojBlagajne;
      }
+
 
     public void prikaziPodatke() {
         System.out.println("Podaci o blagajniku: ");

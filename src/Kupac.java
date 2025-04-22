@@ -1,8 +1,8 @@
-public class Kupac extends Osoba {
+public class Kupac extends Osoba   {
 
     public double saldoNaRacunu;
 
-    public Kupac(String ime, String prezime, int oib, double saldoNaRacunu) {
+    public Kupac(String ime, String prezime, String oib, double saldoNaRacunu) {
         super(ime, prezime, oib);
     }
 
@@ -14,7 +14,6 @@ public class Kupac extends Osoba {
         this.saldoNaRacunu = saldoNaRacunu;
     }
 
-    @Override
     public void prikaziPodatke() {
         System.out.println("Podaci o kupcu:");
         System.out.println("Ime: " + ime + "Prezime: " + "Oib: " + oib + "Saldo na računu je " + saldoNaRacunu);

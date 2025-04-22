@@ -6,10 +6,12 @@ public class Osoba {
     public String prezime;
     public int oib;
 
-    public Osoba(String ime, String prezime, int oib) {
+
+    public Osoba(String ime, String prezime, String oib) {
         this.ime = ime;
         this.prezime = prezime;
         this.oib = oib;
+
     }
 
     public String getIme() {
