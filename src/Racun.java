@@ -1,15 +1,15 @@
-public abstract class Racun extends Blagajnik {
+public class Racun extends Blagajnik {
 
 
     //kupac, blagajnik i iznos računa
 
     int iznosRacuna;
 
-    public Racun(String imeKupca, String prezimeKupca, int oib, int brojBlagajne, int iznosRačuna) {
+    public Racun(String imeKupca, String prezimeKupca, String imeBlagajnika, String prezimeBlagajnika, int oib, int brojBlagajne, double iznosRačuna) {
         super(imeKupca, prezimeKupca, oib, brojBlagajne);
     }
 
-    public int getIznosRacuna() {
+    public double getIznosRacuna() {
         return this.iznosRacuna;
     }
     public void setIznosRacuna() {

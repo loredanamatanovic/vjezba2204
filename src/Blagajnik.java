@@ -2,8 +2,8 @@ public class Blagajnik extends Osoba  {
 
     public int brojBlagajne = (int) (Math.random() * 7);
 
-    public Blagajnik(String ime, String prezime, int oib, int brojBlagajne) {
-        super(ime, prezime, oib);
+    public Blagajnik(String ime, String prezimeBlagajnika, int oib, int brojBlagajne) {
+        super(ime, prezimeBlagajnika, oib);
     }
 
      public int getBrojBlagajne() {

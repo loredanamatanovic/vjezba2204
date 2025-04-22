@@ -4,6 +4,6 @@ public class Main {
         Osoba osoba = new Osoba("Marko", "Marković", 0025);
         Blagajnik blagajnik = new Blagajnik("Jura", "Stefanov", 0147, 1);
         Kupac kupac  = new Kupac("Matko", "Matković", 2145, 80);
-        new Racun(, , , )
+        new Racun(kupac.getIme(), kupac.getPrezime(), blagajnik.getIme(), blagajnik.getPrezime(), 2154, blagajnik.brojBlagajne, 26.22);
     }
 }
