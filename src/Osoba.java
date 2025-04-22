@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Osoba {
 
     public String ime;
@@ -34,9 +36,22 @@ public class Osoba {
         this.oib = oib;
     }
 
+    public  void ucitajPodatke() {
+        Scanner skener = new Scanner(System.in);
+        System.out.println("Molim unesite vaše ime. ");
+        String ime = skener.nextLine();
+        System.out.println("Molim unesite vaše prezime. ");
+        String prezime = skener.nextLine();
+        System.out.println("Molim unesite vaš oib. ");
+        int oib = skener.nextInt();
+        skener.close();
+    }
 
-    public void prikaziPodatke() {
+    public  void prikaziPodatke() {
+        System.out.println("Podaci: ");
         System.out.println("Ime: " + ime + "Prezime: " + "Oib: " + oib);
     }
+
+
 
 }
